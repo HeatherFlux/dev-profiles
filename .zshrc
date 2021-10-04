@@ -83,6 +83,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+alias dev="cd ~/dev"
+lazy () { git add . && git commit -m "\"$@\"" && git push origin "$(git_current_branch)" }
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
