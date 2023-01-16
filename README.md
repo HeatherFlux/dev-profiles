@@ -28,3 +28,5 @@
 		- [ ] eslint
 		- [ ] prettier
 		- [ ] Rainbow Typescript
+
+- Tests
